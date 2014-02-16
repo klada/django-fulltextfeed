@@ -27,6 +27,6 @@ Installation
 
 1. Place the *fulltextfeed* package in your Django project
 2. Add *fulltextfeed* to `INSTALLED_APPS` in your settings file
-3. Include `fulltextrss.urls` in your URL config
+3. Include `fulltextfeed.urls` in your URL config
 4. Run `syncdb`
 5. Open Django's built-in admin site and configure your feeds
