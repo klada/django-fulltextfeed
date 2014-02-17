@@ -11,7 +11,7 @@ Some websites only offer spoiler versions of articles in their Atom/RSS feeds. T
 How does it work?
 -----------------
 
-Whenenver you (or your feed reader) accesses a feed through *django-fulltextfeed*, your server downloads and parses the actual Atom/RSS feed of the source site. It then follows the links in the feed and downloads the entire article from the site. For each feed a **XPath** expression can be configured to extract only the article from the site, without any site layout. When all articles have been downloaded, a full-text Atom feed is returned to your browser or feed reader.
+Whenever you (or your feed reader) accesses a feed through *django-fulltextfeed*, your server downloads and parses the actual Atom/RSS feed of the source site. It then follows the links in the feed and downloads the entire article from the site. For each feed an **XPath** expression can be configured to extract only the article from the site, without any site layout. When all articles have been downloaded, a full-text Atom feed is returned to your browser or feed reader.
 
 For faster loading and reduced load on the websites the full-text articles are cached in a database.
 
